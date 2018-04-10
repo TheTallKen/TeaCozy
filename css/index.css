@@ -29,9 +29,32 @@ body {
 }
 
 .mission {
-  background-image: image("resources/img-mission-background.jpg");
+  background-image: url("../resources/img-mission-background.jpg");
+  height: 700px;
 }
 
+.mission.statement {
+  background-color: black;
+  width: 1200px;
+}
+
+.locations {
+  background-image: url("../resources/img-locations-background.jpg");
+}
+
+.spots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.downtown,
+.eastbayside,
+.oakdale {
+  background-color: black;
+  width: 300px
+}
 
 
 .copyright {
