@@ -34,11 +34,12 @@ body {
   height: 700px;
 }
 
-.mission.statement {
+.statement {
+  display: flex;
   background-color: black;
   width: 1200px;
-  padding: 300px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .locations {
@@ -48,7 +49,7 @@ body {
 .spots {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   justify-content: center;
 }
 
