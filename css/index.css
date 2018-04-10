@@ -17,6 +17,7 @@ body {
   test-align: center;
   align-items: flex-start;
   height: 69px;
+  border-bottom: 1px solid seashell;
 }
 
 .logo {
@@ -36,6 +37,8 @@ body {
 .mission.statement {
   background-color: black;
   width: 1200px;
+  padding: 300px;
+  text-align: center;
 }
 
 .locations {
