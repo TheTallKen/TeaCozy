@@ -1,0 +1,39 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  text-align: justify;
+  test-align: center;
+  align-items: flex-start;
+  height: 69px;
+}
+
+.logo {
+  height: 50px;
+  left: 10px;
+}
+
+.nav {
+  text-decoration: underline;
+}
+
+.mission {
+  background-image: image("resources/img-mission-background.jpg");
+}
+
+
+
+.copyright {
+  text-align: left;
+}
